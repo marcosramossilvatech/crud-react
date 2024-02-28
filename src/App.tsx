@@ -1,3 +1,13 @@
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./routes";
+export const App = () => {
+  return (
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+
+  );
+}
 // function App() {
 //   return (
 //     <div className="App">
@@ -7,10 +17,3 @@
 // }
 
 // export default App;
-export const App = () => {
-  return (
-    <div className="App">
-       Teste
-    </div>
-  );
-}
